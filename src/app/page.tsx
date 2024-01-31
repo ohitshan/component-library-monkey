@@ -13,7 +13,9 @@ export default function Home() {
       />
       <div className="flex flex-col items-end">
         <h1 className="text-[32px] font-bold ">REACT-COMPONENT-Library</h1>
-        <h3 className="text-[yellow] text-[18px] font-semibold">by Monkey</h3>
+        <h3 className="text-[yellow] text-[18px] font-semibold">
+          by Monkeybin
+        </h3>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">

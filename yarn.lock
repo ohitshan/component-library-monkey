@@ -2081,10 +2081,10 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
-react-component-library-monkey@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/react-component-library-monkey/-/react-component-library-monkey-0.0.9.tgz#dc81ff1c8ec5d5f7aecac37264635c4b7b39a7d8"
-  integrity sha512-RjtRk2AIxLiULHpuxgfX8i9FVW9bhac1qomrxxrvRXbUgSEXlNeNZD71S8c/cx4UCZaXjqMv6Zov/jy2A9UT/A==
+react-component-library-monkey@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/react-component-library-monkey/-/react-component-library-monkey-0.0.13.tgz#ba5ce1d75016dc0d3a5b742483a82c6f993c1ddb"
+  integrity sha512-kJPFqkEf1t1SyDFJZLEawIXdm5RKWvbuI/JbB3fmVyLLLRxhekTeZUYjBACcXG2YDFZz+/gxY0uN7oW12KPWwg==
 
 react-dom@^18:
   version "18.2.0"
