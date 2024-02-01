@@ -23,19 +23,8 @@ export default function ComponentLayout({
 }>) {
   return (
     <>
-      <header className="p-[24px] border-b-[1px] border-b-[#FFFFFF] mb-[24px]">
-        <Link href={"/"}>
-          <Image
-            className="cursor-pointer"
-            src="/monkey.jpeg"
-            width={40}
-            height={40}
-            alt="Picture of the author"
-          />
-        </Link>
-      </header>
       <div className="flex">
-        <ul className="flex-[0_0_20%] min-w-[200px] border-r-[1px] border-[#FFFFFF]">
+        <ul className="flex-[0_0_20%] border-r-[1px] border-[#FFFFFF]">
           {sideMenuList.map((menu) => (
             <Link href={menu.href} key={menu.href}>
               <li className="p-[12px] font-semibold text-center hover:bg-yellow-400  hover:border-r-[4px] rounded-[4px]">
