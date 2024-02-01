@@ -51,24 +51,24 @@ export default function Installation() {
           <pre>
             <code className="code flex flex-col">
               <span>
-                <span className="text-[#3DB7CC]">"peerDependencies"</span>:{" "}
+                <span className="text-[#3DB7CC]">{`"peerDependencies"`}</span>:{" "}
                 <span>{"{"}</span>
               </span>
               <span>
                 {" "}
-                <span className="text-[#3DB7CC]">"react"</span>:{" "}
-                <span className="text-[#F29661]">"^18.2.0"</span>,
+                <span className="text-[#3DB7CC]">{`"react"`}</span>:{" "}
+                <span className="text-[#F29661]">{`"^18.2.0"`}</span>,
               </span>
               <span>
                 {" "}
-                <span className="text-[#3DB7CC]">"react-dom"</span>:{" "}
-                <span className="text-[#F29661]">"^18.2.0"</span>,
+                <span className="text-[#3DB7CC]">{`"react-dom"`}</span>:{" "}
+                <span className="text-[#F29661]">{`"^18.2.0"`}</span>,
               </span>
               <span>
                 {" "}
                 <span className="text-[#3DB7CC]">
-                  "styled-components"
-                </span>: <span className="text-[#F29661]">"^6.1.8"</span>,
+                  {`"styled-components"`}
+                </span>: <span className="text-[#F29661]">{`"^6.1.8"`}</span>,
               </span>
               <span>{`},`}</span>
             </code>
