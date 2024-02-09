@@ -14,6 +14,7 @@ const sideMenuList = [
   { name: "Button", href: "/components/button" },
   { name: "Table", href: "/components/table" },
   { name: "Input", href: "/components/input" },
+  { name: "Select", href: "/components/select" },
 ];
 
 export default function ComponentLayout({
