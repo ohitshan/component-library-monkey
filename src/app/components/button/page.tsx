@@ -23,13 +23,18 @@ const dataSource = [
     Type: "red | blue | yellow",
     Description: "color of button",
   },
+  {
+    Property: "size",
+    Type: 24 | 32,
+    Description: "size of button",
+  },
 ];
 
 export default function ButtonPage() {
   return (
     <div className="flex flex-col items-start">
       <h2 className="text-[24px] font-bold mb-[24px]">Button</h2>
-      <Button $block={false}>123</Button>
+      <Button block={false}>Button</Button>
       <h3 className="text-[20px] font-semibold my-[24px]">API</h3>
       <Table columns={columns} dataSource={dataSource} />
     </div>

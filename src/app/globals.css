@@ -19,6 +19,7 @@
 body {
   color: white;
   background: black;
+  box-sizing: border-box;
 }
 
 body > ul > li {
