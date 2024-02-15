@@ -1,8 +1,17 @@
 "use client";
-import { Button, Input, Select, Table } from "react-component-library-monkey";
+import { useState } from "react";
+import {
+  Button,
+  Checkbox,
+  Input,
+  Select,
+  Table,
+} from "react-component-library-monkey";
 import styled from "styled-components";
 
 export default function Components() {
+  const [checkBox, setCheckbox] = useState(false);
+  const [customCheckBox, setCustomCheckbox] = useState(false);
   return (
     <div className="flex flex-col">
       <h2 className="text-[24px] font-bold mb-[24px]">Components Overview</h2>
@@ -79,6 +88,23 @@ export default function Components() {
                 { label: "mango", value: "mango" },
                 { label: "banana", value: "banana" },
               ]}
+            />
+          </CardContent>
+        </Card>
+        <Card className="w-[calc(50%-6px)]">
+          <CardTitle>Checkbox</CardTitle>
+          <CardContent>
+            <Checkbox
+              checked={checkBox}
+              onChange={(e) => setCheckbox(e)}
+              label={"checkbox"}
+            />
+            <Checkbox
+              checked={customCheckBox}
+              onChange={(e) => setCustomCheckbox(e)}
+              checkedIcon={<div>Checked</div>}
+              unCheckedIcon={<div>Unchecked</div>}
+              label={"custom checkbox"}
             />
           </CardContent>
         </Card>

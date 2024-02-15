@@ -15,6 +15,7 @@ const sideMenuList = [
   { name: "Table", href: "/components/table" },
   { name: "Input", href: "/components/input" },
   { name: "Select", href: "/components/select" },
+  { name: "Checkbox", href: "/components/checkbox" },
 ];
 
 export default function ComponentLayout({
