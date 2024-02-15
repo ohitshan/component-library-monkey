@@ -16,6 +16,7 @@ const sideMenuList = [
   { name: "Input", href: "/components/input" },
   { name: "Select", href: "/components/select" },
   { name: "Checkbox", href: "/components/checkbox" },
+  { name: "Radio", href: "/components/radio" },
 ];
 
 export default function ComponentLayout({

@@ -4,6 +4,7 @@ import {
   Button,
   Checkbox,
   Input,
+  Radio,
   Select,
   Table,
 } from "react-component-library-monkey";
@@ -105,6 +106,26 @@ export default function Components() {
               checkedIcon={<div>Checked</div>}
               unCheckedIcon={<div>Unchecked</div>}
               label={"custom checkbox"}
+            />
+          </CardContent>
+        </Card>
+        <Card className="w-[calc(50%-6px)]">
+          <CardTitle>Radio</CardTitle>
+          <CardContent>
+            <Radio
+              options={[
+                { label: "mango", value: "mango" },
+                { label: "banana", value: "banana" },
+                { label: "apple", value: "apple", disabled: true },
+              ]}
+            />
+            <Radio
+              options={[
+                { label: "mango", value: "mango" },
+                { label: "banana", value: "banana", disabled: true },
+                { label: "apple", value: "apple" },
+              ]}
+              radioType="border"
             />
           </CardContent>
         </Card>
