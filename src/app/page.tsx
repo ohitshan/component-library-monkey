@@ -1,7 +1,15 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+import axiosInstance from "./api";
 
 export default function Home() {
+  useEffect(() => {
+    axiosInstance.get("/123");
+  }, []);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-[12px]">
       <Image
